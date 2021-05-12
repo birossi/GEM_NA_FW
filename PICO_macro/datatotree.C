@@ -16,7 +16,7 @@ void datatotree(TString filename) {
   TFile *f = new TFile(filename+".root","RECREATE");
 
   TTree* t1 = new TTree("t1", "t1");
-  t1->Branch("Index",    &index, "Index/I");
+  t1->Branch("Index",   &index,"Index/I");
   t1->Branch("Time",    &time, "Time/I");
   t1->Branch("V_G3B",   &v1,   "V_G3B/F");
   t1->Branch("I_G3B",   &i1,   "I_G3B/F");

@@ -1,0 +1,15 @@
+__init__.py
+*.pyc
+.*.swp
+.#*
+#*#
+*~
+build
+*.sub
+*.log
+*.d
+*.so
+*.pcm
+*.root
+*.json
+*.xml
